@@ -24,7 +24,7 @@ import net.javaguides.springboot.crudrestfulwebservices.exception.ResourceNotFou
 
 @CrossOrigin(origins ="http://localhost:3000")
 @RestController
-@RequestMapping("/api/v3/")
+@RequestMapping("/api/v1/")
 public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
